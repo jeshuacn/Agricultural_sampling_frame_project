@@ -481,9 +481,4 @@ st.markdown('**Systematic sampling** is the most appropiate method for this popu
 ''
 ''
 'For a comprehensive understanding, please refer to the full analysis: '
-'To gain a complete perspective, please view the full analysis: '
-'To gain a complete perspective, we invite you to view the full analysis:'
 #################################################################################################
-# cd d:\
-# cd D:\Users\"Jeshua Céspedes"\Documents\"Data Science"\"Lonely Octopus"\Projects\"Sampling frame"
-# streamlit run sampling_frame_app.py

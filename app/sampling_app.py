@@ -391,51 +391,51 @@ def color_one(val):
 
 ####################################################################################################
 # STD
-l = np.array([np.std(df['Field_area']),np.std(random['Field_area']),np.std(systematic['Field_area']),
+STD = np.array([np.std(df['Field_area']),np.std(random['Field_area']),np.std(systematic['Field_area']),
             np.std(replicated['Field_area']),np.std(pps['Field_area']),np.std(stratified['Field_area'])])
 
-l0 = l/np.std(df.Field_area)
-l1 = l/np.std(random.Field_area)
-l2 = l/np.std(systematic.Field_area)
-l3 = l/np.std(replicated.Field_area)
-l4 = l/np.std(pps.Field_area)
-l5 = l/np.std(stratified.Field_area)
+std0 = STD/np.std(df.Field_area)
+std1 = STD/np.std(random.Field_area)
+std2 = STD/np.std(systematic.Field_area)
+std3 = STD/np.std(replicated.Field_area)
+std4 = STD/np.std(pps.Field_area)
+std5 = STD/np.std(stratified.Field_area)
 
 idx = ['Population','Random Sample','Systematic Sample','Replicated Sample','PPS Sample','Stratified Sample']
-std_frame = pd.DataFrame({'Population':l0,'Random Sample':l1,'Systematic Sample':l2,'Replicated Sample':l3,'PPS Sample':l4,'Stratified Sample':l5},index = idx)
+std_frame = pd.DataFrame({'Population':std0,'Random Sample':std1,'Systematic Sample':std2,'Replicated Sample':std3,'PPS Sample':std4,'Stratified Sample':std5},index = idx)
 
 
 std_frame = std_frame.style.applymap(color_one)\
             .set_caption('Field Area Standard Deviation Comparison by Sampling Method over the Population')
 
 # Mean
-l_mean = np.array([np.mean(df['Field_area']),np.mean(random['Field_area']),np.mean(systematic['Field_area']),
+mean0 = np.array([np.mean(df['Field_area']),np.mean(random['Field_area']),np.mean(systematic['Field_area']),
             np.mean(replicated['Field_area']),np.mean(pps['Field_area']),np.mean(stratified['Field_area'])])
 
-l0_mean = l_mean/np.mean(df.Field_area)
-l1_mean = l_mean/np.mean(random.Field_area)
-l2_mean = l_mean/np.mean(systematic.Field_area)
-l3_mean = l_mean/np.mean(replicated.Field_area)
-l4_mean = l_mean/np.mean(pps.Field_area)
-l5_mean = l_mean/np.mean(stratified.Field_area)
+mean1 = mean0/np.mean(df.Field_area)
+mean2 = mean0/np.mean(random.Field_area)
+mean3 = mean0/np.mean(systematic.Field_area)
+mean4 = mean0/np.mean(replicated.Field_area)
+mean5 = mean0/np.mean(pps.Field_area)
+mean6 = mean0/np.mean(stratified.Field_area)
 
-mean_frame = pd.DataFrame({'Population':l0_mean,'Random Sample':l1_mean,'Systematic Sample':l2_mean,'Replicated Sample':l3_mean,'PPS Sample':l4_mean,'Stratified Sample':l5_mean},index = idx)
+mean_frame = pd.DataFrame({'Population':mean1,'Random Sample':mean2,'Systematic Sample':mean3,'Replicated Sample':mean4,'PPS Sample':mean5,'Stratified Sample':mean6},index = idx)
 
 mean_frame = mean_frame.style.applymap(color_one)\
             .set_caption('Field Area Mean Comparison by Sampling Method over the Population')
 
 # Median
-l_median = np.array([np.median(df['Field_area']),np.median(random['Field_area']),np.median(systematic['Field_area']),
+median0 = np.array([np.median(df['Field_area']),np.median(random['Field_area']),np.median(systematic['Field_area']),
               np.median(replicated['Field_area']),np.median(pps['Field_area']),np.median(stratified['Field_area'])])
 
-l0_median = l_median/np.median(df.Field_area)
-l1_median = l_median/np.median(random.Field_area)
-l2_median = l_median/np.median(systematic.Field_area)
-l3_median = l_median/np.median(replicated.Field_area)
-l4_median = l_median/np.median(pps.Field_area)
-l5_median = l_median/np.median(stratified.Field_area)
+median1 = median0/np.median(df.Field_area)
+median2 = median0/np.median(random.Field_area)
+median3 = median0/np.median(systematic.Field_area)
+median4 = median0/np.median(replicated.Field_area)
+median5 = median0/np.median(pps.Field_area)
+median6 = median0/np.median(stratified.Field_area)
 
-median_frame = pd.DataFrame({'Population':l0_median,'Random Sample':l1_median,'Systematic Sample':l2_median,'Replicated Sample':l3_median,'PPS Sample':l4_median,'Stratified Sample':l5_median},index = idx)
+median_frame = pd.DataFrame({'Population':median1,'Random Sample':median2,'Systematic Sample':median3,'Replicated Sample':median4,'PPS Sample':median5,'Stratified Sample':median6},index = idx)
 
 
 median_frame = median_frame.style.applymap(color_one)\

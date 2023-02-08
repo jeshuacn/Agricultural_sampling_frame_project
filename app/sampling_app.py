@@ -51,7 +51,7 @@ st.write("Credits: [Vecteezy.com](https://www.vecteezy.com/vector-art/2711992-fa
 # Loading data
 @st.cache
 def load_data():
-  df=pd.read_excel('Sampling_Frame_dataset.xlsx',index_col= 'ID')
+  #df=pd.read_excel('Sampling_Frame_dataset.xlsx',index_col= 'ID')
   df.pd.read_excel('https://github.com/jeshuacn/Agricultural_sampling_frame_project/blob/main/app/Sampling_Frame_dataset.xlsx',index_col = 'ID')
   df.index = df.index.astype('int16')
 

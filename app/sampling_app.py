@@ -7,7 +7,9 @@ import seaborn as sns
 import app_functions as fn # Sampling Functions
 
 #App settings
-st.set_page_config(page_title='Agricultural Sampling',layout='wide')
+st.set_page_config(page_title='Agricultural Sampling',
+                   page_icon=":sunflower:",
+                   layout='wide')
 
 # Scrollbar settings
 st.markdown("""

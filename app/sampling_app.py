@@ -105,7 +105,7 @@ with row1_6:
 ########################################################################################################
 
 st.markdown("") # Add blank row
-see_data = st.expander('','You can click here to see the data and its description 👉')
+see_data = st.expander('You can click here to see the data and its description 👉')
 mk = fn.mk # Data Description markdown
 with see_data:
     data_col, description_col = st.columns(2)
@@ -126,7 +126,7 @@ with see_data:
 #SIDEBAR options
 
 # Plot width and hight adjust
-st.sidebar.markdown("**Here you can resize the plots:** 👇")
+st.sidebar.markdown('',"**Here you can resize the plots:** 👇")
 width = st.sidebar.slider('',"Plot width", 1, 25, 8)
 height = st.sidebar.slider('',"Plot height", 1, 25, 5)
 

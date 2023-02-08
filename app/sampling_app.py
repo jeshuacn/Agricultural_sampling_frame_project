@@ -127,11 +127,11 @@ with see_data:
 
 # Plot width and hight adjust
 st.sidebar.markdown("**Here you can resize the plots:** 👇")
-width = st.sidebar.slider('',"Plot width", 1, 25, 8)
-height = st.sidebar.slider('',"Plot height", 1, 25, 5)
+width = st.sidebar.slider("Plot width", 1, 25, 8)
+height = st.sidebar.slider("Plot height", 1, 25, 5)
 
 # Rerun button in sidebar
-st.sidebar.markdown('',"**Here you can perform a recaclulation of the sampling methods:**")
+st.sidebar.markdown("**Here you can perform a recaclulation of the sampling methods:**")
 bt = st.sidebar.button('','Recalculate Samples')
 if bt:
 

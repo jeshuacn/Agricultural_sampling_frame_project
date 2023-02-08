@@ -1,6 +1,6 @@
 # Agricultural sampling frames
 
-[![Notebook]](https://colab.research.google.com/drive/1du6sqQNJ9pbzUWeJezVrWaPs3f4KJvjQ?usp=sharing)     [![Project Dashboard App]](https://sampling-project.streamlit.app)
+[![Notebook]](https://colab.research.google.com/github/jeshuacn/Agricultural_sampling_frame_project/blob/main/SamplingFrame.ipynb)     [![Project Dashboard App]](https://sampling-project.streamlit.app)
 
 [Project Dashboard App]: https://img.shields.io/badge/Project_Dashboard-37a779?style=for-the-badge
 
@@ -29,7 +29,7 @@ This is very important because the method you decide to use will be implemented 
 
 The data consist of 606 farmers specialized in growing vegetables. It was gathered from surveys by the Ministry of Agriculture.
 
-To gain a complete perspective, please view the full analysis: [Notebook](https://colab.research.google.com/drive/1du6sqQNJ9pbzUWeJezVrWaPs3f4KJvjQ?usp=sharing)
+To gain a complete perspective, please view the full analysis: [Notebook](https://colab.research.google.com/github/jeshuacn/Agricultural_sampling_frame_project/blob/main/SamplingFrame.ipynb)
 
 
 

@@ -453,7 +453,7 @@ with row3_1:
 
     st.write('') # add blank row
     st.write('Investigate the coefficient of variation to determine which sample method is the more representative of the population.')
-    comparison_table = st.selectbox ("", ['Mean Comparison','Standar Deviation Comparison','Median Comparison'],key = 'mean_std_comparison',label_visibility =False)
+    comparison_table = st.selectbox ("", ['Mean Comparison','Standar Deviation Comparison','Median Comparison'],key = 'mean_std_comparison',label_visibility ='hidden')
 
 with row3_2:
 

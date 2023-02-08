@@ -132,7 +132,7 @@ height = st.sidebar.slider("Plot height", 1, 25, 5)
 
 # Rerun button in sidebar
 st.sidebar.markdown("**Here you can perform a recaclulation of the sampling methods:**")
-bt = st.sidebar.button('','Recalculate Samples')
+bt = st.sidebar.button('Recalculate Samples',label = '')
 if bt:
 
     st.experimental_memo.clear()

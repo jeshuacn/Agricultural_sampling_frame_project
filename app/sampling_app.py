@@ -482,5 +482,5 @@ st.markdown('**Systematic sampling** is the most appropiate method for this popu
 ''
 ''
 ''
-'For a comprehensive understanding, please refer to the full analysis: [<img align="left" alt = "Git" width="26px" src = "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"][Github Notebook](https://github.com/jeshuacn/Agricultural_sampling_frame_project/blob/main/SamplingFrame.ipynb) '
+'For a comprehensive understanding, please refer to the full analysis: [<img align="left" alt="GitHub" width="26px" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" style="padding-right:10px;" />][Github Notebook](https://github.com/jeshuacn/Agricultural_sampling_frame_project/blob/main/SamplingFrame.ipynb) '
 #################################################################################################

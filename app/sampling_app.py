@@ -42,7 +42,8 @@ st.markdown("""
 # Title
 st.title(""" Agricultural Sampling Frames """)
 st.write('App by: Jeshua Céspedes')
-
+import os
+print(os.listdir(os.curdir))
 # Picture
 #st.image('../farm.jpg')
 st.image('https://github.com/jeshuacn/Agricultural_sampling_frame_project/blob/main/app/farm.jpg')

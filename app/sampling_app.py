@@ -44,7 +44,8 @@ st.title(""" Agricultural Sampling Frames """)
 st.write('App by: Jeshua Céspedes')
 
 # Picture
-st.image('../farm.jpg')
+#st.image('../farm.jpg')
+st.image('https://github.com/jeshuacn/Agricultural_sampling_frame_project/blob/main/app/farm.jpg')
 st.write("Credits: [Vecteezy.com](https://www.vecteezy.com/vector-art/2711992-farm-horizontal-landscape-scene-with-red-barn)")
 
 # Loading data

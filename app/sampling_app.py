@@ -104,7 +104,7 @@ with row1_6:
     
 ########################################################################################################
 
-st.markdown("") # Add blank row
+st.markdown(" ") # Add blank row
 see_data = st.expander('You can click here to see the data and its description 👉')
 mk = fn.mk # Data Description markdown
 with see_data:
@@ -444,29 +444,29 @@ median_frame = median_frame.style.applymap(color_one)\
 ####################################################################################################
 # COMPARISON
 
-st.write('') # add blank row
+st.write(' ') # add blank row
 st.subheader('Comparing statistics for each Sampling Method over the Population')
 
 #Comparing the Standard Deviation for each Sampling Method over the Population
 row3_1,space, row3_2 = st.columns([2.5,0.4,4])
 with row3_1:
 
-    st.write('') # add blank row
+    st.write(' ') # add blank row
     st.write('Investigate the coefficient of variation to determine which sample method is the more representative of the population.')
     comparison_table = st.selectbox ("", ['Mean Comparison','Standar Deviation Comparison','Median Comparison'],key = 'mean_std_comparison')
 
 with row3_2:
 
     if comparison_table == 'Standar Deviation Comparison':
-        st.write('') # add blank row
+        st.write(' ') # add blank row
         std_frame
 
     elif comparison_table == 'Mean Comparison':
-        st.write('') # add blank row
+        st.write(' ') # add blank row
         mean_frame
 
     else:
-        st.write('') # add blank row
+        st.write(' ') # add blank row
         median_frame
 #####################################################################################################
 # CONCLUSION
@@ -477,8 +477,8 @@ st.markdown('**Systematic sampling** is the most appropiate method for this popu
 
 
 
-''
-''
-''
+' '
+' '
+' '
 'For a comprehensive understanding, please refer to the full analysis: '
 #################################################################################################

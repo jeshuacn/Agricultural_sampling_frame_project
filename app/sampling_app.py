@@ -233,7 +233,7 @@ with row2_1:
 
     var = {'Crop':'Crop','Greenhouse':'Greenhouse', 'Irrigation':'Irrigation', 'Irrigation mode':'Irrigation_mode', 'Production mode':'Production_Mode','Field area':'Field_area'}    
 
-    col_selection = st.selectbox ("", var.keys(),key = 'columns_count1')
+    col_selection = st.selectbox ("", var.keys(),key = 'columns_count1',label_visibility = 'collapsed')
 
     show_plots(df,var.get(col_selection))
 ###############################################################################################
@@ -291,7 +291,7 @@ with row2_2:
     'Select a sampling method to compare with the population and the selected variable:'
 
     
-    show_me_plots_sampling = st.selectbox ("", ['Random Sampling','Systematic Sampling', 'Replicated Sampling', 'PPS Sampling', 'Stratified Sampling'],key = 'columns_count2')
+    show_me_plots_sampling = st.selectbox ("", ['Random Sampling','Systematic Sampling', 'Replicated Sampling', 'PPS Sampling', 'Stratified Sampling'],key = 'columns_count2',label_visibility = 'collapsed')
     random_inf, systematic_inf, replicated_inf, stratified_inf, pps_inf = population_inference(sample_size,var.get(col_selection))
     
     

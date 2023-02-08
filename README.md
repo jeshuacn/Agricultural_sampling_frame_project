@@ -35,4 +35,14 @@ To gain a complete perspective, please view the full analysis: [Notebook]('sas)
 
 ### References:
 
-Lonenly Octopus :octopus:
+[Lonenly Octopus](https://www.lonelyoctopus.com/about) :octopus:
+
+[PPS Sampling in Python by Aayush Malik](https://chaayushmalik.medium.com/pps-sampling-in-python-b5d5d4a8bdf7)
+
+[How to compare two or more distributions](https://towardsdatascience.com/how-to-compare-two-or-more-distributions-9b06ee4d30bf)
+
+
+[Stratified random sampling](https://www.investopedia.com/terms/stratified_random_sampling.asp#:~:text=For%20example%2C%20if%20the%20researcher,population%20size\)%20%C3%97%20stratum%20size)
+
+
+[Inference](https://online.stat.psu.edu/stat200/lesson/1/1.2#paragraph--2297)

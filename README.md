@@ -35,7 +35,7 @@ To gain a complete perspective, please view the full analysis: [Notebook]('sas)
 
 ### References:
 
-[Lonenly Octopus](https://www.lonelyoctopus.com/about) :octopus:
+[Lonely Octopus](https://www.lonelyoctopus.com/about) :octopus:
 
 [PPS Sampling in Python by Aayush Malik](https://chaayushmalik.medium.com/pps-sampling-in-python-b5d5d4a8bdf7)
 

@@ -42,17 +42,14 @@ st.markdown("""
 # Title
 st.title(""" Agricultural Sampling Frames """)
 st.write('App by: Jeshua Céspedes')
-import os
-st.write(os.listdir(os.curdir))
+
 # Picture
 st.image('app/farm.jpg')
-#st.image('https://github.com/jeshuacn/Agricultural_sampling_frame_project/blob/main/app/farm.jpg')
 st.write("Credits: [Vecteezy.com](https://www.vecteezy.com/vector-art/2711992-farm-horizontal-landscape-scene-with-red-barn)")
 
 # Loading data
 @st.cache
 def load_data():
-  #df=pd.read_excel('Sampling_Frame_dataset.xlsx',index_col= 'ID')
   df = pd.read_excel('app/data/Sampling_Frame_dataset.xlsx',index_col = 'ID')
   df.index = df.index.astype('int16')
 

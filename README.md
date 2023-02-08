@@ -10,5 +10,5 @@
 [Project Dashboard App]: https://sampling-project.streamlit.app
 
 
-[<kbd> <br> Title <br> </kbd>][link]
+[<kbd> <br> Project Dashboard <br> </kbd>][link]
 [link]: https://sampling-project.streamlit.app

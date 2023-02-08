@@ -7,7 +7,7 @@
 
 [Link]: # 'Project app.'
 <!---------------------------------[ Buttons ]--------------------------------->
-[link]: https://sampling-project.streamlit.app
+[Project Dashboard App]: https://sampling-project.streamlit.app
 
 
 [<kbd> <br> Project Dashboard <br> </kbd>][app]

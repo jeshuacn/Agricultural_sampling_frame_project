@@ -47,7 +47,7 @@ st.write('App by: Jeshua Céspedes')
 
 # Picture
 st.image('app/farm.jpg')
-st.write("Credits: [Vecteezy.com](https://www.vecteezy.com/vector-art/2711992-farm-horizontal-landscape-scene-with-red-barn) [Free License](https://www.vecteezy.com/licensing-agreement)")
+st.write("Credits: [Vecteezy.com](https://www.vecteezy.com/vector-art/2711992-farm-horizontal-landscape-scene-with-red-barn) | [Free License](https://www.vecteezy.com/licensing-agreement)")
 
 # Loading data
 @st.cache

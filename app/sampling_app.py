@@ -100,7 +100,7 @@ with row1_5:
     st.markdown(str_prod)
 with row1_6:
     n_total = df.Field_area.sum()
-    str_total= "🌱 " + str(n_total.round(2)) + " Total area planted"
+    str_total= "🌱 " + str(n_total.round(2)) + " Total area planted (Ha)"
     st.markdown(str_total)
 
     

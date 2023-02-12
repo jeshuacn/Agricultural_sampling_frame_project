@@ -129,7 +129,7 @@ with see_data:
 
 # Plot width and hight adjust
 st.sidebar.markdown("**Here you can resize the plots:** 👇")
-width = st.sidebar.slider("Plot width", 1, 25, 8)
+width = st.sidebar.slider("Plot width", 1, 25, 6)
 height = st.sidebar.slider("Plot height", 1, 25, 5)
 
 # Rerun button in sidebar

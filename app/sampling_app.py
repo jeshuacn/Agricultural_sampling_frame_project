@@ -179,7 +179,7 @@ def show_plots(data,col):
         ax.set_title('Number of farmers by '+str(col).replace("_"," "))
         plt.xlabel('Count')
         plt.ylabel(str(col).replace("_" , " "))
-        ax.tick_params(axis='both', which='major', labelsize=13)
+        ax.tick_params(axis='both', which='minor', labelsize=13)
     
     # Show plot
     st.pyplot(fig)

@@ -140,6 +140,13 @@ if bt:
     st.experimental_memo.clear()
     st.experimental_rerun()
 
+
+
+st.markdown(f'''
+    <style>
+        section[data-testid="stSidebar"] .css-1d391kg {{width: 14rem;}}
+    </style>
+''',unsafe_allow_html=True)
 ############################################################################################################   
 # PLOT FUNCTIONS 
 def show_plots(data,col):

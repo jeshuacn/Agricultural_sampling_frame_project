@@ -290,7 +290,7 @@ def population_inference(sample_size,col_selection):
 
 with row2_2:
     st.markdown('## Sampling and Inference')
-    'Select a sampling method to compare with the population and the selected variable:'
+    st.markdown('Select a sampling method to compare with the population and the selected variable:')
 
     
     show_me_plots_sampling = st.selectbox ("", ['Random Sampling','Systematic Sampling', 'Replicated Sampling', 'PPS Sampling', 'Stratified Sampling'],key = 'columns_count2',label_visibility = 'collapsed')

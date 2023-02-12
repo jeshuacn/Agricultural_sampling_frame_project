@@ -179,6 +179,7 @@ def show_plots(data,col):
         ax.set_title('Number of farmers by '+str(col).replace("_"," "))
         plt.xlabel('Count')
         plt.ylabel(str(col).replace("_" , " "))
+        ax.tick_params(axis='both', which='major', labelsize=13)
     
     # Show plot
     st.pyplot(fig)
@@ -220,6 +221,7 @@ def show_plots_inf(data,col,sampling_method = None):
         ax.set_title('Number of farmers by '+str(col).replace("_"," ")+" (Inference)")
         plt.xlabel('Count')
         plt.ylabel(str(col).replace("_" , " "))
+        ax.tick_params(axis='both', which='major', labelsize=13)
      
         
     # Show plot

@@ -35,8 +35,6 @@ To gain a complete perspective, please view the full analysis: [Notebook](https:
 
 ### References:
 
-[Lonely Octopus](https://www.lonelyoctopus.com/about) :octopus:
-
 [PPS Sampling in Python by Aayush Malik](https://chaayushmalik.medium.com/pps-sampling-in-python-b5d5d4a8bdf7)
 
 [How to compare two or more distributions](https://towardsdatascience.com/how-to-compare-two-or-more-distributions-9b06ee4d30bf)

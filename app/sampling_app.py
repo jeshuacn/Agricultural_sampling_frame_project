@@ -245,7 +245,7 @@ with row2_1:
     var = {'Crop':'Crop','Greenhouse':'Greenhouse', 'Irrigation':'Irrigation', 'Irrigation mode':'Irrigation_mode', 'Production mode':'Production_Mode','Field area':'Field_area'}    
 
     col_selection = st.selectbox ("", var.keys(),key = 'columns_count1',label_visibility = 'collapsed')
-
+    st.write(var.get(col_selection))
     show_plots(df,var.get(col_selection))
 ###############################################################################################
 # GETTING THE SAMPLES AND PLOTING THE INFERENCE

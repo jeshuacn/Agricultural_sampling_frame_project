@@ -50,7 +50,7 @@ st.image('app/farm.jpg')
 st.write("Credits: [Vecteezy.com](https://www.vecteezy.com/vector-art/2711992-farm-horizontal-landscape-scene-with-red-barn) | [Free License](https://www.vecteezy.com/licensing-agreement)")
 
 # Loading data
-@st.cache
+@st.cache_data
 def load_data():
   df = pd.read_excel('app/data/Sampling_Frame_dataset.xlsx',index_col = 'ID')
   df.index = df.index.astype('int16')

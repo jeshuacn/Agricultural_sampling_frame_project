@@ -178,8 +178,8 @@ def show_plots(data,col):
 
     
     else:
-        st.write(col)
-        ax = sns.barplot(x =str(col), y = data.index, data = data,palette = colors)
+        #ax = sns.barplot(x =str(col), y = data.index, data = data,palette = colors)
+        ax = plt.bar(str(col),data.index,color = colors)
         # Show values on barplot
         fn.show_values(ax,'h',df)
         

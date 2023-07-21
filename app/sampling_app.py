@@ -244,7 +244,7 @@ with row2_1:
 
     var = {'Crop':'Crop','Greenhouse':'Greenhouse', 'Irrigation':'Irrigation', 'Irrigation mode':'Irrigation_mode', 'Production mode':'Production_Mode','Field area':'Field_area'}    
 
-    col_selection = st.selectbox ("", var.keys(),key = 'columns_count1',label_visibility = 'collapsed')
+    col_selection = st.selectbox ("Crop", var.keys(),key = 'columns_count1',label_visibility = 'collapsed')
 
     show_plots(df,var.get(col_selection))
 ###############################################################################################

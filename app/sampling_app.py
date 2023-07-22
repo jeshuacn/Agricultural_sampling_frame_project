@@ -484,7 +484,7 @@ with row3_2:
 
 st.subheader('Conclusion:')
 
-st.markdown('After a lengthy analysis of each sampling method, we can conclude that the **Systematic sampling** method is the most convenient for this data, the size of the population and the resources availables for conducting the survey.')
+st.markdown('After a lengthy analysis of each sampling method, we can conclude that the **Replicated sampling** method is the most convenient for this data, the size of the population and the resources availables for conducting the survey.')
 
 
 

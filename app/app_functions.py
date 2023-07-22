@@ -5,7 +5,7 @@ import streamlit as st
 
 # Simple Random Sampling
 #@st.cache
-@st.experimental_memo
+@st.cache_data 
 def random_sampling(df, sample_size):
     '''
     Returns a random sampled dataframe of length sample_size.
@@ -21,7 +21,7 @@ def random_sampling(df, sample_size):
 
 # Systematic Sampling
 #@st.cache
-@st.experimental_memo
+@st.cache_data 
 def systematic_sampling(df, sample_size):
     '''
     Returns a systematic sampled dataframe of length sample_size. 
@@ -50,7 +50,7 @@ def systematic_sampling(df, sample_size):
 
 # Replicated Sampling
 #@st.cache
-@st.experimental_memo
+@st.cache_data 
 def replicated_sampling(df, sample_size):
   '''
     Returns a replicated sample of the input dataframe of length sample_size.
@@ -72,7 +72,7 @@ def replicated_sampling(df, sample_size):
 
 # Probability Proportional to Size Sampling
 #@st.cache
-@st.experimental_memo
+@st.cache_data 
 def pps_sampling(df, variable,sample_size):
     """Perform PPS sampling on a DataFrame.
 
@@ -144,7 +144,7 @@ def pps_sampling(df, variable,sample_size):
 
 # Stratified Sampling
 #@st.cache
-@st.experimental_memo
+@st.cache_data 
 def stratified_sampling(df, sample_size):
     '''
     Returns a stratified sample of the input dataframe.
